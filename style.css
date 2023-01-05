@@ -81,6 +81,8 @@ main{
 .section-title{
     text-align: center;
     margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 33px;
 }
 .section-des{
     font-size: 18px;
@@ -104,4 +106,92 @@ table{
 }
 table td{
     padding-left: 20px;
+}
+/* what i do */
+.whatido{
+    margin-top: 130px;
+}
+.skils-container{
+    display: flex;
+    gap: 25px;
+}
+.skills{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.09);
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.skill-description{
+    color: #757575;
+    padding-top: 15px;
+}
+.whatido-des{
+    height: 90px;
+    width: 910px;
+    text-align: center;
+    margin: 25px auto;
+}
+.section-ttl{
+    margin: 130px;
+    text-align: center;
+    font-size: 35px;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+.resume .description{
+    color: #757575;
+}
+.resume-btn{
+    margin:50px ;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    gap: 120px;
+    background-color: #fff8f4;
+    padding: 130px 200px;
+}
+
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 25px;
+    border: none;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact a {
+    text-decoration: none;
+}
+.section-desc{
+    margin-bottom: 30px;
+    color: #757575;
+    
 }
